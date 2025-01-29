@@ -19,6 +19,13 @@ const Rodape = ()  => {
                             </Link>
                         </li>
                     </ul>
+                    <ul>
+                        <li>
+                            <p>
+                                Ligue: <br />(11)94021-9422
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </footer>

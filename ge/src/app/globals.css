@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    *{
+        @apply m-0 p-0 box-border no-underline;
+    }
+
+    img {
+        @apply w-auto w-max;
+    }
+
+    h1, h2, h3{
+        @apply flex justify-start m-10  mt-5  text-[#26548b] text-[40px]
+    }
+
+    p{
+        @apply flex justify-start mx-10 ml-[60px] text-[20px]
+    }
+}
+
+/* Cabeçalho */
+@layer components {
+    .paginas{
+        @apply flex justify-start m-10 mt-10 ml-[60px] text-[50px] text-[#ff66c4];
+
+    }
+
+    .foto_menu{
+        @apply flex justify-center items-center;
+    }
+
+    .foto_menu img{
+        @apply w-[300px]
+    }
+
+    .menu{
+        @apply m-auto py-10 transition-transform duration-700 ease-in-out;
+
+        &:hover{
+            @apply scale-110;
+        }
+    }
+
+    .menu ul{
+        @apply flex items-center justify-center gap-10 px-20;
+    }
+
+    .menu ul li{
+        @apply flex justify-center items-center rounded-[10px] p-5 shadow-md bg-[#f1ead0] w-[300px];
+    }
+
+    .menu ul li a {
+        @apply text-[25px] text-[#26548b];
+    }
+}
+
+/* Página inicial */
+.container a{
+    @apply flex justify-start mx-10 ml-[60px] text-[20px] text-[#ff66c4];
+}
+.cards-inicial{
+    @apply flex flex-row justify-center items-center ml-40;
+}
+
+.produto{
+    @apply flex-row justify-evenly p-6 w-[400px] shadow-2xl bg-[#26548b] rounded-[20px];
+}
+
+.produto img{
+    @apply block rounded-[10px];
+}
+
+.produto a{
+    @apply flex justify-center items-center p-[5px] border border-blue-900 border-solid rounded-[10px] mt-5 text-[#26548b] bg-[#f1ead0];
+}
+
+/* prodtuos */
+.gelinho ul li{
+    @apply flex justify-start mx-10 ml-[60px] text-[20px]
+}

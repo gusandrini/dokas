@@ -46,10 +46,13 @@ const Produtos = () => {
         <h2>Mais produtos em breve!</h2>
         <p>
           Em breve, traremos mais novidades, incluindo bolos, docinhos e salgados. Tem alguma sugestão? 
-          Entre em contato conosco e nos ajude a criar novos sabores e produtos incríveis! 📞
+          Entre em contato conosco e nos ajude a criar novos sabores e produtos incríveis!
         </p>
         <p>
-          📞 <strong>(11) 94021-9422</strong> ou <strong>(11) 96222-1054</strong>
+          📞 <strong>(11) 94021-9422</strong> 
+        </p>
+        <p>
+          📞 <strong>(11) 96222-1054</strong>
         </p>
       </div>
     </div>

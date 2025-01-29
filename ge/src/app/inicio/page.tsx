@@ -16,9 +16,11 @@ const Inicio = () => {
         <Link href="/sobre-nos" className="btn-sobre">Saiba mais</Link>
       </div>
 
+      <div className="nossos-produtos">
+        <h2>Nossos Produtos</h2>
+      </div>
       {/* Destaque de Produtos */}
       <div className="cards-inicial">
-        <h2>Nossos Produtos</h2>
         <div className="produto">
           <Image src={Gelinho} alt="Gelinho" />
           <Link className="btn-produto" href="/produtos">Gelinho</Link>

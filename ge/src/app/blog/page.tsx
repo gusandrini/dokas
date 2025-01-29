@@ -20,6 +20,7 @@ const Blog = () => {
             <h1>Como Fazer meu pedido? Passo a Passo para realizar seu pedido.</h1>
             <p>
                 Passo 1: <br /><br />
+                Passo 2: <br /><br />
                 Passo 3: <br /> <br />
                 Passo 4: <br /> <br />
             </p>

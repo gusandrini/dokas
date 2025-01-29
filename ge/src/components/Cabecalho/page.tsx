@@ -1,18 +1,19 @@
 import React from 'react'
 import Link from 'next/link';
-import image from 'next/image';
+import Image from 'next/image';
+import Logo from '@/image/doceria.png' 
 
 const Cabecalho = ()  => {
   return (
     <header>
         <div>
             <div className="foto_menu">
-                {/* <Link href="/">
+                <Link href="/">
                     <Image
-                    src={}
-                    alt=''
+                    src={Logo}
+                    alt='Logo de nossa marca'
                     />
-                </Link> */}
+                </Link>
             </div>
         </div>
 

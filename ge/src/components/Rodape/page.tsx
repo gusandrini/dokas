@@ -22,7 +22,7 @@ const Rodape = ()  => {
                     <ul>
                         <li>
                             <p>
-                                Ligue: <br />(11)94021-9422
+                                Para entrar em contato ligue: <br />(11)94021-9422 ou (11)96222-1054
                             </p>
                         </li>
                     </ul>

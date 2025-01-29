@@ -4,7 +4,7 @@ import Cabecalho from "@/components/Cabecalho/page";
 import Rodape from "@/components/Rodape/page";
 
 export const metadata: Metadata = {
-  title: "Lojinha",
+  title: "Doka`s",
   description: "Criando projeto da minha loja",
 };
 

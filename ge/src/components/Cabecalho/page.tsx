@@ -15,38 +15,6 @@ const Cabecalho = ()  => {
                     />
                 </Link>
             </div>
-            <div className="foto_menu">
-                <Link href="/">
-                    <Image
-                    src={Logo}
-                    alt='Logo de nossa marca'
-                    />
-                </Link>
-            </div>
-            <div className="foto_menu">
-                <Link href="/">
-                    <Image
-                    src={Logo}
-                    alt='Logo de nossa marca'
-                    />
-                </Link>
-            </div>
-            <div className="foto_menu">
-                <Link href="/">
-                    <Image
-                    src={Logo}
-                    alt='Logo de nossa marca'
-                    />
-                </Link>
-            </div>
-            <div className="foto_menu">
-                <Link href="/">
-                    <Image
-                    src={Logo}
-                    alt='Logo de nossa marca'
-                    />
-                </Link>
-            </div>
         </div>
 
         <div className="container-cabecalho">

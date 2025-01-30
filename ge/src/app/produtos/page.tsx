@@ -21,18 +21,21 @@ const Produtos = () => {
           <li>🥥 Coco</li>
           <li>🍓 Morango</li>
         </ul>
+        <p><strong>Valor:</strong> R$ 3,00 cada</p>
 
         <h2>Versão Zero Açúcar</h2>
         <p>
           Para quem busca uma opção mais saudável, temos os sabores Chocolate, Coco e Morango na versão 
           zero açúcar, sem perder o sabor e a cremosidade!
         </p>
+        <p><strong>Valor:</strong> R$ 3,50 cada</p>
 
         <h2>Gelinho Proteico</h2>
         <p>
           Está de dieta ou focado na sua alimentação? Temos a opção de gelinho proteico, feito sob medida 
           para você! Podemos prepará-lo com whey protein ou outros ingredientes de sua preferência.
         </p>
+        <p><strong>Valor:</strong> Consultar</p>
 
         <h2>Sabores Personalizados</h2>
         <p>
@@ -40,6 +43,7 @@ const Produtos = () => {
           e preparamos para você. Para encomendas personalizadas, o pedido mínimo é de 10 unidades, e o valor 
           varia conforme os ingredientes utilizados.
         </p>
+        <p><strong>Valor:</strong> Consultar</p>
       </div>
 
       <div className="mais-produtos">

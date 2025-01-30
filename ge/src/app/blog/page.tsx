@@ -1,12 +1,12 @@
 import React from 'react';
-import Link from 'next/link';
+// import Link from 'next/link';
 
 const Blog = () => {
   return (
     <div>
-        <div className="paginas">
+        {/* <div className="paginas">
             <Link href="/" passHref>Home/Blog</Link>
-        </div>
+        </div> */}
 
         <div className="introducao_blog">
             <h1>Bem-vindo ao nosso Blog!</h1>

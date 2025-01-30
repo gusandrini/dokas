@@ -1,12 +1,12 @@
-import Link from 'next/link';
+// import Link from 'next/link';
 import React from 'react';
 
 const Produtos = () => {
   return (
     <div>
-      <div className="paginas">
+      {/* <div className="paginas">
         <Link href="/" passHref>Home/Produtos</Link>
-      </div>
+      </div> */}
 
       <div className="gelinho">
         <h1>Gelinho</h1>

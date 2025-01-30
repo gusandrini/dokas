@@ -6,7 +6,39 @@ import Logo from '@/image/doceria.png'
 const Cabecalho = ()  => {
   return (
     <header>
-        <div>
+        <div className='logos'>
+            <div className="foto_menu">
+                <Link href="/">
+                    <Image
+                    src={Logo}
+                    alt='Logo de nossa marca'
+                    />
+                </Link>
+            </div>
+            <div className="foto_menu">
+                <Link href="/">
+                    <Image
+                    src={Logo}
+                    alt='Logo de nossa marca'
+                    />
+                </Link>
+            </div>
+            <div className="foto_menu">
+                <Link href="/">
+                    <Image
+                    src={Logo}
+                    alt='Logo de nossa marca'
+                    />
+                </Link>
+            </div>
+            <div className="foto_menu">
+                <Link href="/">
+                    <Image
+                    src={Logo}
+                    alt='Logo de nossa marca'
+                    />
+                </Link>
+            </div>
             <div className="foto_menu">
                 <Link href="/">
                     <Image

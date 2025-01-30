@@ -32,9 +32,10 @@ const Inicio = () => {
       <div className="contato">
         <h2>Faça seu pedido!</h2>
         <p>
-          📞 Entre em contato e garanta seu pedido:<br />
-          <strong>(11) 94021-9422</strong> ou <strong>(11) 96222-1054</strong>
+          📞 Entre em contato e garanta seu pedido:
         </p>
+        <p><strong>(11) 94021-9422</strong></p>
+        <p><strong>(11) 96222-1054</strong></p>
         <p>
           📍 Entregamos na sua residência (valor a combinar) ou você pode retirar sem custo adicional.
         </p>

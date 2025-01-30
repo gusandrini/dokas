@@ -12,19 +12,23 @@
     }
 
     h1, h2, h3{
-        @apply flex justify-start m-10  mt-5  text-[#26548b] text-[40px]
+        @apply flex justify-center m-5    text-[#26548b] text-[40px]
     }
 
     p{
-        @apply flex justify-start mx-10 ml-[60px] text-[20px]
+        @apply flex justify-center mx-48  text-[20px] text-center
     }
 }
 
 /* Cabeçalho */
 @layer components {
     .paginas{
-        @apply flex justify-start m-10 mt-10 ml-[60px] text-[50px] text-[#ff66c4];
+        @apply flex justify-center m-10 mt-10 text-[50px] text-[#ff66c4];
 
+    }
+
+    .logos{
+        @apply flex items-center justify-center gap-10 px-20
     }
 
     .foto_menu{
@@ -58,10 +62,10 @@
 
 /* Página inicial */
 .container a{
-    @apply flex justify-start mx-10 ml-[60px] text-[20px] text-[#ff66c4];
+    @apply flex justify-center mx-10 ml-[60px] text-[20px] text-[#ff66c4];
 }
 .cards-inicial{
-    @apply flex flex-row justify-center items-center ml-40;
+    @apply flex flex-row justify-center items-center;
 }
 
 .produto{
@@ -78,5 +82,20 @@
 
 /* prodtuos */
 .gelinho ul li{
-    @apply flex justify-start mx-10 ml-[60px] text-[20px]
+    @apply flex justify-center   text-[20px]
+}
+
+/* rodapé */
+@layer components{
+    .rodape{
+        @apply flex justify-center items-center bg-[#f1ead0] mt-20
+    }
+
+    .redes_sociais{
+        @apply flex justify-center items-center
+    }
+
+    .copyright{
+        @apply m-6
+    }
 }

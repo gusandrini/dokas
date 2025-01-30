@@ -13,12 +13,10 @@ const Rodape = () => {
         <div className="redes_sociais">
           <Link className="rede" target="_blank" rel="noopener" href="https://www.instagram.com/seu_instagram">
             <Image src={Insta} alt="Instagram" width={30} height={30} />
-            <span>instagram</span>
           </Link>
 
           <Link className="rede" target="_blank" rel="noopener" href="https://www.facebook.com/seu_facebook">
             <Image src={Face} alt="Facebook" width={30} height={30} />
-            <span>Facebook</span>
           </Link>
         </div>
 

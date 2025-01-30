@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
 import Insta from '@/image/instagram.png';
-import Face from '@/image/facebook.png'; // Corrigido para a imagem correta do Facebook
+// import Face from '@/image/facebook.png'; // Corrigido para a imagem correta do Facebook
 
 const Rodape = () => {
   return (
@@ -11,13 +11,13 @@ const Rodape = () => {
         {/* Redes Sociais */}
         <h2 className="titulo_rodape">Nos Siga nas Redes Sociais</h2>
         <div className="redes_sociais">
-          <Link className="rede" target="_blank" rel="noopener" href="https://www.instagram.com/seu_instagram">
+          <Link className="rede" target="_blank" rel="noopener" href="https://www.instagram.com/dokasoficial/">
             <Image src={Insta} alt="Instagram" width={30} height={30} />
           </Link>
 
-          <Link className="rede" target="_blank" rel="noopener" href="https://www.facebook.com/seu_facebook">
+          {/* <Link className="rede" target="_blank" rel="noopener" href="https://www.facebook.com/seu_facebook">
             <Image src={Face} alt="Facebook" width={30} height={30} />
-          </Link>
+          </Link> */}
         </div>
 
         {/* Contato */}

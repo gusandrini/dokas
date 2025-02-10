@@ -98,6 +98,9 @@
     .rodape {
         @apply flex flex-col md:flex-row justify-center items-center bg-[#f1ead0] mt-10 md:mt-20 p-5;
     }
+    .rodape img{
+        @apply w-[40px];
+    }
 
     .redes_sociais {
         @apply flex justify-center items-center;

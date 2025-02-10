@@ -77,7 +77,7 @@
 }
 
 .produto img {
-    @apply block rounded-[10px] h-[450px] w-[350px]; /* Ajustei altura e largura */
+    @apply block rounded-[10px] h-[400px] w-[350px]; /* Ajustei altura e largura */
 }
 
 .produto a {

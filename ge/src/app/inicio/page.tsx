@@ -23,9 +23,29 @@ const Inicio = () => {
       <div className="cards-inicial">
         <div className="produto">
           <Image src={Gelinho} alt="Gelinho" />
-          <Link className="btn-produto" href="/gelinho">Gelinho</Link>
+          <Link className="btn-produto" href="/gelinho">Gelinhos</Link>
         </div>
-        {/* Aqui você pode adicionar mais produtos futuramente */}
+
+        <div className="produto">
+          <Image src={bolo} alt="Bolo" />
+          <Link className="btn-produto" href="/bolo">Bolos</Link>
+        </div>
+
+        <div className="produto">
+          <Image src={brigadeiro} alt="brigadeiro" />
+          <Link className="btn-produto" href="/brigadeiro">Brigadeiros</Link>
+        </div>
+
+        <div className="produto">
+          <Image src={brownie} alt="brownie" />
+          <Link className="btn-produto" href="/brownie">Brownie</Link>
+        </div>
+
+        <div className="produto">
+          <Image src={cookie} alt="cookie" />
+          <Link className="btn-produto" href="/cookie">Cookie</Link>
+        </div>
+
       </div>
 
       <div className="mais-produtos">

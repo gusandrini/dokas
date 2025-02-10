@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
-import Insta from '@/image/instagram.png';
+import Insta from '@/image/insta.png';
 // import Face from '@/image/facebook.png'; // Corrigido para a imagem correta do Facebook
 
 const Rodape = () => {

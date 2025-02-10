@@ -22,8 +22,8 @@ const Cabecalho = ()  => {
                 <nav>
                     <ul>
                         <li><Link href="/sobre-nos" className="link">SOBRE NÓS</Link></li>
+                        <li><Link href="/" className="link">PRODUTOS</Link></li>
                         <li><Link href="/blog" className="link">BLOG</Link></li>
-                        <li><Link href="/produtos" className="link">PRODUTOS</Link></li>
                     </ul>
                 </nav>
             </div>

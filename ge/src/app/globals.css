@@ -16,11 +16,11 @@
     }
 
     h1, h2, h3 {
-        @apply flex justify-center m-5 text-[#26548b] text-[40px] text-center font-bold;
+        @apply flex justify-center items-center m-5 text-[#26548b] text-[40px] font-bold;
     }
 
     p {
-        @apply flex justify-center mx-8 md:mx-48 text-[20px] text-center;
+        @apply flex justify-center mx-8 md:mx-48 text-[20px];
     }
 }
 
@@ -65,19 +65,19 @@
 
 /* Página inicial */
 .container a {
-    @apply flex justify-center mx-5 md:mx-10 ml-[30px] md:ml-[60px] text-[18px] md:text-[20px] text-[#ff66c4] font-semibold;
+    @apply flex justify-center mx-5 md:mx-10 ml-[30px] md:ml-[60px] text-[18px] md:text-[20px] text-[#ff66c4] font-semibold ;
 }
 
 .cards-inicial {
-    @apply flex flex-wrap justify-center items-center gap-5;
+    @apply flex flex-wrap justify-center items-center;
 }
 
 .produto {
-    @apply flex flex-col justify-evenly p-4 md:p-6 w-[300px] md:w-[400px] shadow-2xl bg-[#26548b] rounded-[20px];
+    @apply flex flex-col justify-evenly m-5 p-4 md:p-6 w-[300px] md:w-[400px] shadow-2xl bg-[#26548b] rounded-[20px];
 }
 
 .produto img {
-    @apply block rounded-[10px];
+    @apply block rounded-[10px] h-[450px] w-[350px]; /* Ajustei altura e largura */
 }
 
 .produto a {
@@ -85,11 +85,11 @@
 }
 
 /* Produtos */
-.gelinho ul {
+.gelinho ul, .brigadeiro ul, .cookie ul, .bolo ul, .brownie ul {
     @apply flex flex-wrap justify-center gap-5;
 }
 
-.gelinho ul li {
+.gelinho ul li, .brigadeiro ul li, .cookie ul li, .bolo ul li, .brownie ul li {
     @apply flex justify-center text-[18px] md:text-[20px] font-semibold;
 }
 

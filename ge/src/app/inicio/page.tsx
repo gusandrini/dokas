@@ -2,6 +2,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import Gelinho from '@/image/gelinho.jpeg';
+import bolo from '@/image/bolo.jpg';
+import brigadeiro from '@/image/brigadeiro.jpg';
+import brownie from '@/image/brownie.jpg';
+import cookie from '@/image/cookie.jpg';
 
 const Inicio = () => {
   return (

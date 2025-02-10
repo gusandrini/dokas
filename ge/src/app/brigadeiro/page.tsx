@@ -8,21 +8,21 @@ const Brigadeiro = () => {
         <Link href="/" passHref>Home Brigadeiro</Link>
       </div> */}
 
-      <div className="Brigadeiro">
+      <div className="brigadeiro">
         <h1>Brigadeiro</h1>
         <p>
-          Nossos Brigadeiros são feitos com ingredientes selecionados para garantir muito sabor e qualidade! 
+          Nossos brigadeiros são feitos com ingredientes selecionados para garantir muito sabor e qualidade! 
           Temos sabores fixos e também aceitamos encomendas personalizadas. Confira nossas opções:
         </p>
 
         <h2>Sabores Fixos</h2>
         <ul>
-          <li>Brigadeiro</li>
-          <li>Brigadeiro de ninho</li>
-          <li>Bicho de pé</li>
-          <li>Beijinho</li>
+          <li>🍫 Brigadeiro</li>
+          <li>🥛 Brigadeiro de Ninho</li>
+          <li>🍓 Bicho de Pé</li>
+          <li>🥥 Beijinho</li>
         </ul>
-        <p><strong>Valor:</strong> consultar</p>
+        <p><strong>Valor:</strong> Consultar</p>
 
         {/* <h2>Versão Zero Açúcar</h2>
         <p>
@@ -33,7 +33,7 @@ const Brigadeiro = () => {
 
         <h2>Brigadeiro Proteico</h2>
         <p>
-          Está de dieta ou focado na sua alimentação? Temos a opção de Brigadeiro proteico, feito sob medida 
+          Está de dieta ou focado na sua alimentação? Temos a opção de brigadeiro proteico, feito sob medida 
           para você! Podemos prepará-lo com whey protein ou outros ingredientes de sua preferência.
         </p>
         <p><strong>Valor:</strong> Consultar</p> */}

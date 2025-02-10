@@ -8,10 +8,10 @@ const Brownie = () => {
         <Link href="/" passHref>Home Brownie</Link>
       </div> */}
 
-      <div className="Brownie">
+      <div className="brownie">
         <h1>Brownie</h1>
         <p>
-          Nossos Brownies são feitos com ingredientes selecionados para garantir muito sabor e qualidade! 
+          Nossos brownies são feitos com ingredientes selecionados para garantir muito sabor e qualidade! 
           Temos sabores fixos e também aceitamos encomendas personalizadas. Confira nossas opções:
         </p>
 
@@ -30,7 +30,7 @@ const Brownie = () => {
 
         <h2>Brownie Proteico</h2>
         <p>
-          Está de dieta ou focado na sua alimentação? Temos a opção de Brownie proteico, feito sob medida 
+          Está de dieta ou focado na sua alimentação? Temos a opção de brownie proteico, feito sob medida 
           para você! Podemos prepará-lo com whey protein ou outros ingredientes de sua preferência.
         </p>
         <p><strong>Valor:</strong> Consultar</p> */}
@@ -43,7 +43,6 @@ const Brownie = () => {
         </p>
         <p><strong>Valor:</strong> Consultar</p>
       </div>
-
     </div>
   );
 }

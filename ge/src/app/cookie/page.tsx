@@ -8,16 +8,16 @@ const Cookie = () => {
         <Link href="/" passHref>Home Cookie</Link>
       </div> */}
 
-      <div className="Cookie">
+      <div className="cookie">
         <h1>Cookie</h1>
         <p>
-          Nossos Cookies são feitos com ingredientes selecionados para garantir muito sabor e qualidade! 
+          Nossos cookies são feitos com ingredientes selecionados para garantir muito sabor e qualidade! 
           Temos sabores fixos e também aceitamos encomendas personalizadas. Confira nossas opções:
         </p>
 
         <h2>Sabores Fixos</h2>
         <ul>
-          <li>Tradicional</li>
+          <li>🍪 Tradicional</li>
           <li>🍫 Chocolate</li>
         </ul>
         <p><strong>Valor:</strong> Consultar</p>
@@ -31,7 +31,7 @@ const Cookie = () => {
 
         <h2>Cookie Proteico</h2>
         <p>
-          Está de dieta ou focado na sua alimentação? Temos a opção de Cookie proteico, feito sob medida 
+          Está de dieta ou focado na sua alimentação? Temos a opção de cookie proteico, feito sob medida 
           para você! Podemos prepará-lo com whey protein ou outros ingredientes de sua preferência.
         </p>
         <p><strong>Valor:</strong> Consultar</p> */}
@@ -44,7 +44,6 @@ const Cookie = () => {
         </p>
         <p><strong>Valor:</strong> Consultar</p>
       </div>
-
     </div>
   );
 }

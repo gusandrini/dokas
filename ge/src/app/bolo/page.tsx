@@ -8,19 +8,19 @@ const Bolo = () => {
         <Link href="/" passHref>Home Bolo</Link>
       </div> */}
 
-      <div className="Bolo">
+      <div className="bolo">
         <h1>Bolo</h1>
         <p>
-          Nossos Bolos são feitos com ingredientes selecionados para garantir muito sabor e qualidade! 
+          Nossos bolos são feitos com ingredientes selecionados para garantir muito sabor e qualidade! 
           Temos sabores fixos e também aceitamos encomendas personalizadas. Confira nossas opções:
         </p>
 
         <h2>Sabores Fixos</h2>
         <ul>
           <li>🍫 Chocolate</li>
-          <li>Cenoura</li>
-          <li>Bolo branco</li>
-          <li>Coco</li>
+          <li>🥕 Cenoura</li>
+          <li>🎂 Bolo Branco</li>
+          <li>🥥 Coco</li>
         </ul>
         <p><strong>Valor:</strong> Consultar</p>
 
@@ -33,7 +33,7 @@ const Bolo = () => {
 
         <h2>Bolo Proteico</h2>
         <p>
-          Está de dieta ou focado na sua alimentação? Temos a opção de Bolo proteico, feito sob medida 
+          Está de dieta ou focado na sua alimentação? Temos a opção de bolo proteico, feito sob medida 
           para você! Podemos prepará-lo com whey protein ou outros ingredientes de sua preferência.
         </p>
         <p><strong>Valor:</strong> Consultar</p> */}
@@ -46,7 +46,6 @@ const Bolo = () => {
         </p>
         <p><strong>Valor:</strong> Consultar</p>
       </div>
-
     </div>
   );
 }

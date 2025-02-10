@@ -23,9 +23,17 @@ const Inicio = () => {
       <div className="cards-inicial">
         <div className="produto">
           <Image src={Gelinho} alt="Gelinho" />
-          <Link className="btn-produto" href="/produtos">Gelinho</Link>
+          <Link className="btn-produto" href="/gelinho">Gelinho</Link>
         </div>
         {/* Aqui você pode adicionar mais produtos futuramente */}
+      </div>
+
+      <div className="mais-produtos">
+        <h2>Mais produtos em breve!</h2>
+        <p>
+          Em breve, traremos mais novidades. Tem alguma sugestão? 
+          Entre em contato conosco e nos ajude a criar novos sabores e produtos incríveis!
+        </p>
       </div>
 
       {/* Seção de Contato */}

@@ -1,11 +1,11 @@
 // import Link from 'next/link';
 import React from 'react';
 
-const Produtos = () => {
+const Gelinho = () => {
   return (
     <div>
       {/* <div className="paginas">
-        <Link href="/" passHref>Home/Produtos</Link>
+        <Link href="/" passHref>Home Gelinho</Link>
       </div> */}
 
       <div className="gelinho">
@@ -20,15 +20,18 @@ const Produtos = () => {
           <li>🍫 Chocolate</li>
           <li>🥥 Coco</li>
           <li>🍓 Morango</li>
+          <li>🍫 Ovomaltine</li>
+          <li>🥥 Limão</li>
+          <li>🍓 Uva</li>
         </ul>
-        <p><strong>Valor:</strong> R$ 3,00 cada</p>
+        <p><strong>Valor:</strong> R$ 4,00 cada</p>
 
         <h2>Versão Zero Açúcar</h2>
         <p>
           Para quem busca uma opção mais saudável, temos os sabores Chocolate, Coco e Morango na versão 
           zero açúcar, sem perder o sabor e a cremosidade!
         </p>
-        <p><strong>Valor:</strong> R$ 3,50 cada</p>
+        <p><strong>Valor:</strong> R$ 4,50 cada</p>
 
         <h2>Gelinho Proteico</h2>
         <p>
@@ -45,22 +48,8 @@ const Produtos = () => {
         </p>
         <p><strong>Valor:</strong> Consultar</p>
       </div>
-
-      <div className="mais-produtos">
-        <h2>Mais produtos em breve!</h2>
-        <p>
-          Em breve, traremos mais novidades, incluindo bolos, docinhos e salgados. Tem alguma sugestão? 
-          Entre em contato conosco e nos ajude a criar novos sabores e produtos incríveis!
-        </p>
-        <p>
-          📞 <strong>(11) 94021-9422</strong> 
-        </p>
-        <p>
-          📞 <strong>(11) 96222-1054</strong>
-        </p>
-      </div>
     </div>
   );
 }
 
-export default Produtos;
+export default Gelinho;

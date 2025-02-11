@@ -41,8 +41,7 @@ const Bolo = () => {
         <h2>Sabores Personalizados</h2>
         <p>
           Quer um sabor diferente? Fazemos diversos sabores sob encomenda! Basta nos avisar qual sabor deseja, 
-          e preparamos para você. Para encomendas personalizadas, o pedido mínimo é de 10 unidades, e o valor 
-          varia conforme os ingredientes utilizados.
+          e preparamos para você. Para encomendas personalizadas o valor varia conforme os ingredientes utilizados.
         </p>
         <p><strong>Valor:</strong> Consultar</p>
       </div>

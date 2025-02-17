@@ -8,6 +8,12 @@ import brownie from '@/image/brownie.jpg';
 import cookie from '@/image/cookie.jpg';
 
 const Inicio = () => {
+
+  const whatsappNumbers = [
+    { number: "5511940219422", label: "WhatsApp - 1" },
+    { number: "5511962221054", label: "WhatsApp - 2" }
+  ];
+
   return (
     <div className="container">
       {/* Seção de Introdução */}
@@ -66,8 +72,20 @@ const Inicio = () => {
         <p>
           📞 Entre em contato e garanta seu pedido:
         </p>
-        <p><strong>(11) 94021-9422</strong></p>
-        <p><strong>(11) 96222-1054</strong></p>
+        
+        <div >
+          {whatsappNumbers.map((wp, index) => (
+            <Link 
+              key={index} 
+              className="rede" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              href={`http://wa.me/${wp.number}`}
+            >
+              {wp.label}
+            </Link>
+          ))}
+        </div>
         <p>
           📍 Entregamos na sua residência (valor a combinar) ou você pode retirar sem custo adicional.
         </p>

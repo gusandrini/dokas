@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
 import Insta from '@/image/insta.png';
-// import Face from '@/image/facebook.png'; // Corrigido para a imagem correta do Facebook
+import WhatsApp from '@/image/whatsapp (1).png';
 
 const Rodape = () => {
   return (
@@ -15,9 +15,9 @@ const Rodape = () => {
             <Image src={Insta} alt="Instagram" width={30} height={30} />
           </Link>
 
-          {/* <Link className="rede" target="_blank" rel="noopener" href="https://www.facebook.com/seu_facebook">
-            <Image src={Face} alt="Facebook" width={30} height={30} />
-          </Link> */}
+          <Link className="rede" target="_blank" rel="noopener" href="http://wa.me/5511940219422">
+            <Image src={WhatsApp} alt="WhatsApp" width={30} height={30} />
+          </Link>
         </div>
 
         {/* Contato */}

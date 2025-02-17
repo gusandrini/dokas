@@ -26,6 +26,17 @@ const Inicio = () => {
         <Link href="/sobre-nos" className="btn-sobre">Saiba mais</Link>
       </div>
 
+      <div className="eventos">
+        <h2>Fazemos Eventos e Comemorações!</h2>
+        <p>
+          Além das vendas individuais, também atendemos eventos como aniversários, festas e celebrações especiais! 
+          Personalizamos encomendas de acordo com a sua necessidade, garantindo qualidade e sabor para tornar seu evento inesquecível.
+        </p>
+        <p>
+          Entre em contato para solicitar um orçamento e planejar sua festa com a gente!
+        </p>
+      </div>
+
       <div className="nossos-produtos">
         <h2>Nossos Produtos</h2>
       </div>
@@ -55,7 +66,6 @@ const Inicio = () => {
           <Image src={cookie} alt="cookie" />
           <Link className="btn-produto" href="/cookie">Cookie</Link>
         </div>
-
       </div>
 
       <div className="mais-produtos">
@@ -73,7 +83,7 @@ const Inicio = () => {
           📞 Entre em contato e garanta seu pedido:
         </p>
         
-        <div >
+        <div>
           {whatsappNumbers.map((wp, index) => (
             <Link 
               key={index} 
